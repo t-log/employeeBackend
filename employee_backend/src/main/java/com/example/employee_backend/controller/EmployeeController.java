@@ -7,4 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmployeeController {
     @GetMapping("/")
     public String homePage(){return "Welcome to homepage";}
+
+    @GetMapping("/add")
+    public String empAddPage(){return "Add employee page";}
+
+
 }
