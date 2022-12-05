@@ -20,5 +20,8 @@ public class EmployeeController {
     @GetMapping("/viewAll")
     public String empViewPage(){return "Adds view All page";}
 
+    @GetMapping("/delete")
+    public String empDeletePage(){return "Adds employee delete page";}
+
 
 }
