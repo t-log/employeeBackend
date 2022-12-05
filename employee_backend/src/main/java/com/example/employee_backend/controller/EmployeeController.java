@@ -14,5 +14,8 @@ public class EmployeeController {
     @GetMapping("/search")
     public String empSearchPage(){return "Add search page";}
 
+    @GetMapping("/edit")
+    public String empEditPage(){return "Add edit page";}
+
 
 }
