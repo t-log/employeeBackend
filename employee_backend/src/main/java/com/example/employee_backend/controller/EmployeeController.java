@@ -15,8 +15,8 @@ public class EmployeeController {
     public String empAddPage(@RequestBody Employee e){
         System.out.println(e.getEmpCode());
         System.out.println(e.getEmpName().toString());
-//        System.out.println(e.getCompanyName().toString());
-//        System.out.println(e.getDesignation().toString());
+        System.out.println(e.getCompanyName().toString());
+        System.out.println(e.getDesignation().toString());
 
         System.out.println(e.getSalary());
         return "Add employee page";}
